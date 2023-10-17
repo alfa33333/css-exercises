@@ -24,3 +24,31 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+
+body {
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.title {
+text-align: center;
+padding-bottom: 32px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.subitems {
+  text-align: center;
+  width: 200px;
+}
+
+
+.text {
+  text-align: center;
+}
